@@ -36,6 +36,8 @@ xvfb-run -a python minerl_agent.py --method rl_rs_mh_sa
 
 The `--method` flag defines what tricks are applied. You can choose between 'rl, 'rl_rs_mh' or 'rl_rs_mh_sa'.
 
+The resulting logs are put into `./minerl-runs` directory. 
+Copy this directory to the main branch to plot the results.
+
 Setting the `--wandb_logging` flag turns on logging to [Weights & Biases](https://wandb.ai/site). 
 This assumes that you have [set up wandb](https://docs.wandb.ai/quickstart#1-set-up-wandb) before-hand.
-
