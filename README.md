@@ -2,6 +2,8 @@
 
 This repository contains the code for the paper "Distilling Reinforcement Learning Tricks for Video Games".
 
+Code authors: [Anssi Kanervisto](https://github.com/Miffyli), [Christian Scheller](https://github.com/metataro/) and [Yanick Schraner](https://github.com/YanickSchraner).
+
 The experiments in the three environments are split into three git branches:
 
 - `vizdoom` for ViZDoom Deathmatch experiments
